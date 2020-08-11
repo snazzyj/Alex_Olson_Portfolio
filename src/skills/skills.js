@@ -8,6 +8,7 @@ class Skills extends Component {
             <section className="skills" id="skills">
                 <h1>Skills</h1>
                 <div className="frontend">
+                    <h3>Frontend</h3>
                     {frontend.map((icon, index) => {
                         return (
                             <div key={index}>
@@ -19,6 +20,7 @@ class Skills extends Component {
                 </div>
 
                 <div className="backend">
+                    <h3>Backend</h3>
                     {backend.map((icon, index) => {
                         return (
                             <div key={index}>
@@ -30,6 +32,7 @@ class Skills extends Component {
                 </div>
 
                 <div className="other">
+                    <h3>Dev Tools</h3>
                     {other.map((icon, index) => {
                         return (
                             <div key={index}>

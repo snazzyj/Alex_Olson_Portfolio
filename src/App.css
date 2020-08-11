@@ -2,12 +2,21 @@
   text-align: center;
 }
 
-.about > h1, .projects > h1, .skills > h1 {
+.projects > h1 {
   min-height: 75px;
   width: 100%;
-  background-color: lightgreen;
-  font-size: 24px;
-  text-align: left;
+  background-color: #282c34;
+  color: white;
+  font-size: 30px;
+  text-align: center;
   line-height: 75px;
-  padding-left: 100px;
+
+}
+.about > h1, .skills > h1 {
+  min-height: 75px;
+  width: 100%;
+  color: #282c34;
+  font-size: 30px;
+  text-align: center;
+  line-height: 75px;
 }

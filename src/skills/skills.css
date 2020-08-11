@@ -6,4 +6,27 @@
 .skills {
     padding-top: 50px;
     padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.frontend, .backend, .other {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    box-shadow: 0 0 10px #000000;
+}
+
+.frontend > h3, .backend > h3, .other > h3 {
+    width: 100%;
+    text-align: left;
+    border-bottom: 1px solid black;
 }
