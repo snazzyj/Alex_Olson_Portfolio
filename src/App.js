@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import {BrowserRouter} from 'react-router-dom';
+import Header from './header/header';
 import './App.css';
 
 class App extends Component {
@@ -6,9 +8,9 @@ class App extends Component {
 
     return (
       <div className="App">
-        <header className="App-header">
-          <h1>Alex Olson</h1>
-        </header>
+        <BrowserRouter>
+          <Header />
+        </BrowserRouter>
       </div>
     )
 
