@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import './about.css'
 
 class About extends Component {
     render() {
         return (
-            <section className="about">
+            <section className="about" id="about">
+                <h1>About</h1>
                 <p className="missionStatement">
                 Web Developer skilled in Javascript and React. 
                 Proven track record in building strong client relations. 

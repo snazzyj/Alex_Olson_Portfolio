@@ -5,7 +5,8 @@ import './skills.css'
 class Skills extends Component {
     render() {
         return (
-            <section className="skills">
+            <section className="skills" id="skills">
+                <h1>Skills</h1>
                 <div className="frontend">
                     {frontend.map((icon, index) => {
                         return (

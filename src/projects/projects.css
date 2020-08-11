@@ -1,0 +1,13 @@
+.projects {
+    padding-top: 50px;
+}
+
+.project {
+    border: 1px solid black;
+    min-height: 75vh;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
