@@ -8,12 +8,30 @@ import Footer from './footer/footer.js'
 import './App.css';
 
 class App extends Component {
+
+  constructor(props) {
+    super(props);
+    this.state = {
+      isMobile: false,
+    }
+  }
+
+  componentDidMount() {
+    let mediaQuery = window.matchMedia('(max-width: 490px)');
+
+    if(mediaQuery.matches) {
+      this.setState({
+        isMobile: true
+      })
+    }
+  }
+
   render() {
 
     return (
       <div className="App">
         <BrowserRouter>
-          <Header />
+          <Header isMobile={this.state.isMobile} />
           <About />
           <Projects />
           <Skills />

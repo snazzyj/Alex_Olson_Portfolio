@@ -18,3 +18,9 @@
 .contact > a:hover {
     color: gray;
 }
+
+@media only screen and (max-width: 410px) {
+    .contact > a {
+        font-size: 14px;
+    }
+} 

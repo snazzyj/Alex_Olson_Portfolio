@@ -1,0 +1,76 @@
+/* Mobile Nav Bar */
+.burger-menu,
+.burger-menu.open {
+  display: inline-block;
+  cursor: pointer;
+  position: fixed;
+  right: 3px;
+  top: 3px;
+  z-index: 9999;
+  background: #fff;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3);
+}
+
+.burger-menu .bar1,
+.bar2,
+.bar3 {
+  width: 25px;
+  height: 3px;
+  background-color: #282c34;
+  margin: 4px 0;
+  transition: 0.4s;
+}
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 50px;
+    font-size: 25px;
+}
+.menu, .mobileNav {
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #20538D;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    background-color: #494f5c;
+    color: #FFF;
+    text-decoration: none;
+}
+
+.mobileNav {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 100%;
+}
+.mobileNav > a {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    width: 66%;
+    border-bottom: 1px solid white;
+}
+.mobileNav > a:hover {
+    color:white;
+    background-color: #455e77;
+}
+.mobileNav > a:visited {
+    color:white;
+    background-color: #455e77;
+}
