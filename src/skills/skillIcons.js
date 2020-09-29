@@ -3,12 +3,13 @@ import React from '../assests/icons/react_original_logo_icon_146374.png';
 import jQuery from '../assests/icons/jquery_original_wordmark_logo_icon_146447.png';
 import HTML5 from '../assests/icons/html_original_wordmark_logo_icon_146478.png';
 import CSS3 from '../assests/icons/css_original_wordmark_logo_icon_146576.png';
+import Python from '../assests/icons/iconfinder_267_Python_4518857.png';
 import Node from '../assests/icons/nodejs_original_wordmark_logo_icon_146412.png';
 import PostgreSQL from '../assests/icons/postgresql_plain_wordmark_logo_icon_146390.png';
 import Express from '../assests/icons/express_original_wordmark_logo_icon_146528.png'
 import NPM from '../assests/icons/npm_original_wordmark_logo_icon_146402.png';
 import Heroku from '../assests/icons/heroku_original_wordmark_logo_icon_146482.png';
-import GitHub from '../assests/icons/github-logo_icon-icons.com_73546.png'
+import GitHub from '../assests/icons/github-logo_icon-icons.com_73546.png';
 
 const frontend = [
     {
@@ -34,6 +35,10 @@ const frontend = [
 ]
 
 const backend = [
+    {
+        alt: 'Python',
+        icon: Python
+    },
     {
         alt: 'Node',
         icon: Node
