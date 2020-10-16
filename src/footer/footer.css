@@ -1,6 +1,6 @@
 .contact {
-    position: fixed;
-    bottom: 0;
+    /* position: fixed;
+    bottom: 0; */
     background-color: #282c34;
     width: 100%;
     display: flex;
@@ -8,11 +8,11 @@
     justify-content: center;
 }
 
-.contact > a {
+/* .contact > a {
     color: white;
     margin-left: 20px;
     margin-right: 20px;
-}
+} */
 
 .contact > a:hover {
     color: gray;

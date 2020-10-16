@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Resume from '../assests/files/AlexOlsonResume.pdf';
 import './nav.css';
 
 class Mobile extends Component {
@@ -19,7 +20,7 @@ class Mobile extends Component {
     }
 
     toggleNav = () => {
-        const {isOpen} = this.state;
+        const { isOpen } = this.state;
 
         this.setState({
             isOpen: !isOpen
@@ -58,6 +59,21 @@ class Mobile extends Component {
                         <a href="#about" onClick={this.closeNavBar}>About</a>
                         <a href="#projects" onClick={this.closeNavBar}>Projects</a>
                         <a href="#skills" onClick={this.closeNavBar}>Skills</a>
+                        <a href="mailto:silentx.alex@gmail.com">
+                            Email Me
+                        </a>
+
+                        <a href="https://www.linkedin.com/in/alex-olson-60a6bb191/" target="_blank" rel="noopener noreferrer">
+                            LinkedIn
+                        </a>
+
+                        <a href="https://github.com/snazzyj" target="_blank" rel="noopener noreferrer">
+                            Github
+                        </a>
+
+                        <a href={Resume} target="_blank" rel="noopener noreferrer">
+                            Resume
+                        </a>
                     </nav>
                 )}
             </div>

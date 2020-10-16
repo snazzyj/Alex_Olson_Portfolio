@@ -4,7 +4,6 @@ import Header from './header/header';
 import Projects from './projects/projects';
 import Skills from './skills/skills';
 import About from './about/about';
-import Footer from './footer/footer.js'
 import './App.css';
 
 class App extends Component {
@@ -17,7 +16,7 @@ class App extends Component {
   }
 
   componentDidMount() {
-    let mediaQuery = window.matchMedia('(max-width: 490px)');
+    let mediaQuery = window.matchMedia('(max-width: 700px)');
 
     if(mediaQuery.matches) {
       this.setState({
@@ -35,7 +34,6 @@ class App extends Component {
           <About />
           <Projects />
           <Skills />
-          <Footer />
         </BrowserRouter>
       </div>
     )
