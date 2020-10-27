@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Resume from '../assests/files/AlexOlsonResume.pdf';
+import { Menu } from '@material-ui/icons'
 import './nav.css';
 
 class Mobile extends Component {
@@ -44,18 +45,13 @@ class Mobile extends Component {
         const { isOpen } = this.state;
         return (
             <div className="container" ref={this.container}>
-                {/* <button className="burger-menu" onClick={this.toggleNav}>
-                    <div className="bar1" />
-                    <div className="bar2" />
-                    <div className="bar3" />
-                </button> */}
 
                 <button className="menu" onClick={this.toggleNav}>
-                    Menu
+                    <Menu fontSize="larger" />
                 </button>
 
-                {isOpen && (
-                    <nav className="mobileNav">
+                {/* {isOpen && ( */}
+                    <nav className={isOpen ? 'mobileNav show' : 'hide'}>
                         <a href="#about" onClick={this.closeNavBar}>About</a>
                         <a href="#projects" onClick={this.closeNavBar}>Projects</a>
                         <a href="#skills" onClick={this.closeNavBar}>Skills</a>
@@ -75,7 +71,7 @@ class Mobile extends Component {
                             Resume
                         </a>
                     </nav>
-                )}
+                {/* )}  */}
             </div>
         )
     }

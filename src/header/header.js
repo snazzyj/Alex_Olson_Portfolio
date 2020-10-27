@@ -21,22 +21,18 @@ class Header extends Component {
                 <div className="social">
                     <a href="mailto:silentx.alex@gmail.com">
                     <Email fontSize="large" />
-                        {/* Email Me */}
                     </a>
 
                     <a href="https://www.linkedin.com/in/alex-olson-60a6bb191/" target="_blank" rel="noopener noreferrer">
                     <LinkedIn fontSize="large" />
-                        {/* LinkedIn */}
                     </a>
 
                     <a href="https://github.com/snazzyj" target="_blank" rel="noopener noreferrer">
                     <GitHub fontSize="large" />
-                        {/* Github */}
                     </a>
 
                     <a href={Resume} target="_blank" rel="noopener noreferrer">
                     <Description fontSize="large" />
-                        {/* Resume */}
                     </a>
                 </div>
             </header>
