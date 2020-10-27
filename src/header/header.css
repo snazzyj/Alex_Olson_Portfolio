@@ -8,3 +8,19 @@
     font-size: 2em;
     color: white;
 }
+
+.social {
+    color: #FFF;
+    text-decoration: none;
+
+}
+
+.social > a {
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 40px;
+}
+
+.social > a:hover {
+    color:#455e77;
+}

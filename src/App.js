@@ -32,8 +32,8 @@ class App extends Component {
         <BrowserRouter>
           <Header isMobile={this.state.isMobile} />
           <About />
-          <Projects />
           <Skills />
+          <Projects />
         </BrowserRouter>
       </div>
     )
