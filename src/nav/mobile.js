@@ -50,7 +50,6 @@ class Mobile extends Component {
                     <Menu fontSize="larger" />
                 </button>
 
-                {/* {isOpen && ( */}
                     <nav className={isOpen ? 'mobileNav show' : 'hide'}>
                         <a href="#about" onClick={this.closeNavBar}>About</a>
                         <a href="#projects" onClick={this.closeNavBar}>Projects</a>
@@ -71,7 +70,7 @@ class Mobile extends Component {
                             Resume
                         </a>
                     </nav>
-                {/* )}  */}
+
             </div>
         )
     }
