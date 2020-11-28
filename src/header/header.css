@@ -12,7 +12,8 @@
 .social {
     color: #FFF;
     text-decoration: none;
-
+    position: absolute;
+    bottom: 0;
 }
 
 .social > a {
