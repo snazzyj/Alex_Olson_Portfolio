@@ -1,14 +1,18 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import './nav.css';
 
 class Nav extends Component {
     render() {
         return (
+            <Fragment>
             <nav className="nav">
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#projects">Projects</a>
+                <div>
+                    <a href="#about">About</a>
+                    <a href="#skills">Skills</a>
+                    <a href="#projects">Projects</a>
+                </div>
             </nav>
+            </Fragment>
         )
     }
 }

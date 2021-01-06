@@ -55,6 +55,8 @@
 
 .projectLinks > a:hover {
     color:white;
+    /* background-color:  rgb(87, 58, 131); */
+    transition: 0.4s;
     background-color: #455e77;
 }
 

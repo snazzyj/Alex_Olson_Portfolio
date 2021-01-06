@@ -1,5 +1,6 @@
 .App-header {
-    background-color: #282c34;
+    background: rgb(4,47,69);
+    background: linear-gradient(90deg, rgba(4,47,69,1) 16%, rgba(42,29,61,1) 63%);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -12,8 +13,6 @@
 .social {
     color: #FFF;
     text-decoration: none;
-    position: absolute;
-    bottom: 0;
 }
 
 .social > a {
